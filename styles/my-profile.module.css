@@ -1,0 +1,40 @@
+
+.profil{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profil_box_info{
+    margin-left: 25rem;
+    background-color: var(--icons-color);
+    width: 30%;
+    border-radius: 5rem;
+}
+
+.profil_box_info h2{
+    margin-left: 2.1rem;
+}
+
+.profil_box_info h4{
+    margin-left: 2.1rem;
+}
+
+.profil_box_nft{
+    width: 30%;
+    background-color: var(--icons-color);
+    border-radius: 5rem;
+    margin-left: 25rem;
+    position: center;
+}
+
+.profil_box_nft_img{
+    border-radius: 5rem;
+    margin-left: 2.3rem;
+    margin-top: .4rem;
+    transition: all .3s ease-in;
+    position: center;
+}
+
+.profil_box_nft_img:hover{
+    box-shadow: var(--box-shadow);
+}
