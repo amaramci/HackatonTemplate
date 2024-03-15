@@ -1,0 +1,35 @@
+
+.obavestenja{
+    width: 80%;
+    margin: 0 auto; 
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    z-index: 1111111;
+    background-color: var(--shadow-color);
+}
+
+.obavestenja_box{
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+    padding: 1rem;
+    transition: all .3s ease-in;
+}
+
+.obavestenja_box:hover{
+    background-color: var(--icons-color);
+    color: var(--shadow-dark-color);
+    border-radius: .3rem;
+}
+
+.obavestenja_box_img_img{
+    border-radius: 5rem;
+}
+
+.obavestenja_box_info{
+    margin-top: -.8rem;
+}
+
+.obavestenja_box_info h3{
+    font-weight: 600;
+}

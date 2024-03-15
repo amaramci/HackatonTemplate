@@ -1,0 +1,49 @@
+
+.navbar{
+    width: 100%;
+    padding-block: 1.5rem;
+    position: relative;
+    z-index: 111111111;
+}
+
+.navbar_container{ 
+    width: 80%;
+    margin:  0 auto;
+
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navbar_container_left{
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    gap: 1rem;
+    align-items:  center;
+}
+
+.navbar_container_right{
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar_container_left_kolekcije,
+.navbar_container_left_kompanije,
+.navbar_container_left_studenti,
+.navbar_container_left_studio{
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+}
+
+.navbar_container_right_profil_box{
+    position: absolute;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    width: 15rem;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+
+.pomoc{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.pomoc_box{
+    background-color: var(--icons-color);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.pomoc_box_odgovor{
+    background-color: var(--shadow-dark-color);
+    border-radius: 1rem;
+}
+
+.pomoc_box_odgovor p{
+    margin-left: 1rem;
+}
