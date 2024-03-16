@@ -12,7 +12,7 @@ const Home = () =>{
                 <div className={Style.home_box_left}>
                     <h1>Istražite svet NFTa</h1>
                     <p>Istražite mogućnosti NFTa i pronađite studente sa veštinama koje su Vam potrebne.</p>
-                    <Button btnName="Istražite"/>
+                    <Button btnName="Istražite" handleClick={()=>{}}/>
                 </div>
                 <div className={Style.home_box_right}>
                     <Image src={images.creatorbackground6} alt="Home" width={600} height={600}

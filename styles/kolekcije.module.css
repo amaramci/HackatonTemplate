@@ -1,0 +1,32 @@
+
+.kolekcije{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.kolekcije_box{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 5rem;
+}
+
+.kolekcije_box_box{
+    background-color: var(--icons-color);
+    border-radius: 17rem;
+}
+
+.kolekcije_box_box_img{
+    border-radius: 5rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    transition: all .3s ease-in;
+}
+
+.kolekcije_box_box_img:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.kolekcije_box_box h2{
+    margin-left: 9rem;
+}

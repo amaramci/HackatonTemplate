@@ -24,8 +24,10 @@ const NavBar = () =>{
             <div className={Style.navbar_container}>
                 <div className={Style.navbar_container_left}>
                     <div className={Style.navbar_container_left_logo}>
-                        <Image src={images.hero} alt="logo" width={100} height={100} 
-                        className={Style.navbar_container_left_logo_logo}/>
+                        <Link href={{pathname: "http://localhost:3000/"}}>
+                            <Image src={images.hero} alt="logo" width={100} height={100} 
+                            className={Style.navbar_container_left_logo_logo}/>
+                        </Link>
                     </div>
                     <div className={Style.navbar_container_left_kolekcije_box}>
                         <div className={Style.navbar_container_left_kolekcije}>
