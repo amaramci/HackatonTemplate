@@ -1,0 +1,32 @@
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.about_box{
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    background-color: var(--icons-color);
+    border-radius: 2rem;
+}
+
+.about_box_right{
+    background-color: var(--main-bg-color);
+    width: 90%;
+    border-radius: 2rem;
+    margin-left: -4rem;
+    color: var(--icons-color);
+}
+
+.about_box_right h3{
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+.about_box_left_img{
+    margin-top: .2rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+}

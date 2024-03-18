@@ -1,0 +1,26 @@
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.about_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem;
+    gap: 2rem;
+    width: 80%;
+    background-color: var(--icons-color);
+    border-radius: 5rem;
+}
+
+.about_box_img{
+    border-radius: 2rem;
+    transition: all .3s ease-in;
+    margin-left: 2rem;
+}
+
+.about_box_img:hover{
+    box-shadow: var(--box-shadow);
+}

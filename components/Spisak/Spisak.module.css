@@ -1,0 +1,30 @@
+
+.spisak{
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.spisak_box_img{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.spisak_box_img{
+    margin-left: 5rem;
+    width: 50%;
+    background-color: var(--icons-color);
+    border-radius: 2rem;
+}
+
+.spisak_box_img_img{
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.spisak_box_img_info{
+    margin-left: 2rem;
+}
