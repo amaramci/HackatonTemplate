@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <div>
                     <div className={Style.about_box_right}>
-                        <h3>id: 4</h3>
+                        <h3>ID: 4</h3>
                         <h3>Predmet: Programiranje 1</h3>
                         <h3>Profesor: Ime Prezime</h3>
                         <h3>Veštine: C</h3>
