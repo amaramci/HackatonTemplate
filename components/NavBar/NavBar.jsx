@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 import {AiOutlineUser} from "react-icons/ai";
 
@@ -11,13 +12,23 @@ import {Kolekcije, Kompanije, Profil, Studenti, Studio} from "./index";
 const NavBar = () =>{
     const [profil, setProfil] = useState(false);
 
-    const openProfil = () =>{
-        if (!profil){
-            setProfil(true);
-        }else{
-            setProfil(false);
-        }
-    }
+    const router = useRouter();
+
+    const openProfil = () => {
+      setProfil(!profil);
+    };
+  
+    useEffect(() => {
+      const handleRouteChange = () => {
+        setProfil(false); // Zatvara profil meni kada se putanja promeni
+      };
+  
+      router.events.on("routeChangeComplete", handleRouteChange);
+  
+      return () => {
+        router.events.off("routeChangeComplete", handleRouteChange);
+      };
+    }, [router.events]);
 
     return (
         <div className={Style.navbar}>

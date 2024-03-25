@@ -12,14 +12,13 @@
 }
 
 .kolekcije_box_box{
-    background-color: var(--icons-color);
-    border-radius: 17rem;
+    border-radius: 10rem;
 }
 
 .kolekcije_box_box_img{
     border-radius: 5rem;
-    margin-left: 7rem;
-    margin-top: 1rem;
+    margin-left: 3.5rem;
+    margin-top: .5rem;
     transition: all .3s ease-in;
 }
 
@@ -28,5 +27,18 @@
 }
 
 .kolekcije_box_box h2{
-    margin-left: 9rem;
+    text-align: center;
 }
+
+.kolekcije_box_box_image{
+    background-color: var(--icons-color);
+    border-radius: 5rem;
+}
+
+.kolekcije_box_box_info{
+    background-color: var(--icons-color);
+    border-radius: 5rem;
+    width: 80%;
+    margin-left: 4rem;
+}
+

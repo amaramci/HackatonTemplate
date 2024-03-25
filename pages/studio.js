@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Style from "../styles/studio.module.css";
 import images from "../img";
+import Button from "../components/Button/Button";
 
 const studio = () =>{
     return (
@@ -32,6 +33,7 @@ const studio = () =>{
                     </div>
                 </div>
             </div>
+            <Button btnName={"Mint NFT"} handleClick={()=>{}}/>
         </div>
     )
 }

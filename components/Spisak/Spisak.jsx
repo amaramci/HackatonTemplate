@@ -13,7 +13,7 @@ const Spisak = () => {
             <div className={Style.spisak_box}>
                 {spisakArray.map((el,i) => (
                 <div className={Style.spisak_box_img}>
-                    <Image src={images.user3} width={100} height={100} alt="Student" className={Style.spisak_box_img_img} key={i+1}/>
+                    <Image src={images.nftimage1} width={100} height={100} alt="Student" className={Style.spisak_box_img_img} key={i+1}/>
                     <div className={Style.spisak_box_img_info}>
                         <h3>Ime Prezime</h3>
                         <h4>Mail@student.fon.bg.ac.rs</h4>

@@ -89,7 +89,7 @@ const Filter = () => {
             onClick={() => openFilter()}
           >
             <FaFilter />
-            <span>Filter</span> {filter ? <FaAngleDown /> : <FaAngleUp />}
+            <span>Filter</span> {filter ? <FaAngleUp /> : <FaAngleDown />}
           </div>
         </div>
       </div>

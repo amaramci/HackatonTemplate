@@ -45,3 +45,7 @@
 .studio_box_right_text input::placeholder{
     color: var(--shadow-dark-color);
 }
+
+.studio button{
+    margin-left: 75rem;
+}
