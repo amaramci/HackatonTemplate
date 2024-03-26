@@ -15,7 +15,7 @@ const studio = () =>{
                         <h4>Once your item is minted you will not be able to change any of its information.</h4>
                     </div>
                     <div className={Style.studio_box_left_import}>
-                        <Image src={images.nftimage1} width={600} height={600} className={Style.studio_box_left_import_img}/>
+                        <Image src={images.kurs_bootcamp} width={600} height={600} className={Style.studio_box_left_import_img}/>
                     </div>
                 </div>
                 <div className={Style.studio_box_right}>

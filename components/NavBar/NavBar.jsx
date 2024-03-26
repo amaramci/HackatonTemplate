@@ -20,7 +20,7 @@ const NavBar = () =>{
   
     useEffect(() => {
       const handleRouteChange = () => {
-        setProfil(false); // Zatvara profil meni kada se putanja promeni
+        setProfil(false); 
       };
   
       router.events.on("routeChangeComplete", handleRouteChange);
@@ -36,7 +36,7 @@ const NavBar = () =>{
                 <div className={Style.navbar_container_left}>
                     <div className={Style.navbar_container_left_logo}>
                         <Link href={{pathname: "http://localhost:3000/"}}>
-                            <Image src={images.hero} alt="logo" width={100} height={100} 
+                            <Image src={images.logo} alt="logo" width={100} height={80} 
                             className={Style.navbar_container_left_logo_logo}/>
                         </Link>
                     </div>

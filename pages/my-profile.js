@@ -15,7 +15,7 @@ const profil = () =>{
                 </div>
                 <div className={Style.profil_box_nft}>
                     <Link href={{pathname: "/my-wallet"}}>
-                        <Image src={images.nftimage2} width={300} height={300} className={Style.profil_box_nft_img}/>
+                        <Image src={images.student_mndz} width={300} height={300} className={Style.profil_box_nft_img}/>
                     </Link>
                 </div>
             </div>

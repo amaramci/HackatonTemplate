@@ -20,7 +20,7 @@ const Footer = () =>{
         <div className={Style.footer}>
             <div className={Style.footer_box}>
                 <div className={Style.footer_box_social}>
-                    <Image src={images.creatorbackground5} alt="Logo" width={100} height={100}/>
+                    <Image src={images.logo} alt="Logo" width={100} height={100}/>
                     <p>Prva NFT platforma u Srbiji koja selektuje studente na osnovu njihovih vestina i znanja.</p>
                     <div className={Style.footer_box_social_icons}>
                         <a href="#">

@@ -1,13 +1,3 @@
-import creatorbackground5 from "./creatorbackground-5.jpg";
-import creatorbackground6 from './creatorbackground-6.jpg';
-import hero from './hero.png';
-import nftimage1 from "./nft-image-1.png";
-import nftimage2 from "./nft-image-2.png";
-import nftimage3 from "./nft-image-3.png";
-import user3 from "./user-3.png";
-import user4 from "./user-4.png";
-import user8 from "./user-8.png";
-import user9 from "./user-9.png";
 import epos from "./Elektronsko_Poslovanje.png";
 import baze from "./Baze_Podataka.png";
 import ekonomija from "./Ekonomija.png";
@@ -20,8 +10,12 @@ import psiho from "./Psihologija.png";
 import stat from "./Statistika.png";
 import vestacka from "./Veštacka_Inteligencija.png";
 import zavrsni from "./Završni_Rad.png";
+import logo from "./F10.png";
+import hakaton from "./Hakaton.jpg";
+import kurs_bootcamp from "./Priznanje_(slušanje_kursa_na_BC_Bootcampu).jpg";
+import student_it from "./Student_-_Informacioni_Sistemi_I_Tehnologije.jpg";
+import student_mndz from "./Student_-_Menadžment_I_Organizacija.jpg";
 
 
-export default {creatorbackground5, creatorbackground6, hero, nftimage1, nftimage2,
-nftimage3, user3, user4, user8, user9, epos, baze, ekonomija, mata1, mata2, mndz, principi,
-prog1, psiho, stat, vestacka, zavrsni};
+export default {epos, baze, ekonomija, mata1, mata2, mndz, principi,
+prog1, psiho, stat, vestacka, zavrsni, logo, hakaton, kurs_bootcamp, student_it, student_mndz};

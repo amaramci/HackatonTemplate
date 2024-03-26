@@ -129,6 +129,46 @@ const kolekcije = () =>{
                         <h2>Principi programiranja</h2>
                     </div>
                 </div>
+                <div className={Style.kolekcije_box_box}>  
+                    <div className={Style.kolekcije_box_box_image}>
+                        <Link href={{pathname: "/about-menadzment"}}>
+                            <Image src={images.hakaton} width={450} height={350} className={Style.kolekcije_box_box_img}/>
+                        </Link>
+                    </div>
+                    <div className={Style.kolekcije_box_box_info}>
+                        <h2>Hackaton bootcamp</h2>
+                    </div>
+                </div>
+                <div className={Style.kolekcije_box_box}>  
+                    <div className={Style.kolekcije_box_box_image}>
+                        <Link href={{pathname: "/about-menadzment"}}>
+                            <Image src={images.kurs_bootcamp} width={450} height={350} className={Style.kolekcije_box_box_img}/>
+                        </Link>
+                    </div>
+                    <div className={Style.kolekcije_box_box_info}>
+                        <h2>Bootcamp kurs</h2>
+                    </div>
+                </div>
+                <div className={Style.kolekcije_box_box}>  
+                    <div className={Style.kolekcije_box_box_image}>
+                        <Link href={{pathname: "/about-menadzment"}}>
+                            <Image src={images.student_mndz} width={450} height={350} className={Style.kolekcije_box_box_img}/>
+                        </Link>
+                    </div>
+                    <div className={Style.kolekcije_box_box_info}>
+                        <h2>Studenti menadžment</h2>
+                    </div>
+                </div>
+                <div className={Style.kolekcije_box_box}>  
+                    <div className={Style.kolekcije_box_box_image}>
+                        <Link href={{pathname: "/about-menadzment"}}>
+                            <Image src={images.student_it} width={450} height={350} className={Style.kolekcije_box_box_img}/>
+                        </Link>
+                    </div>
+                    <div className={Style.kolekcije_box_box_info}>
+                        <h2>Studenti IT</h2>
+                    </div>
+                </div>
             </div>
         </div>
     )

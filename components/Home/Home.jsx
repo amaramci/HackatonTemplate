@@ -15,7 +15,7 @@ const Home = () =>{
                     <Button btnName="Istražite" handleClick={()=>{}}/>
                 </div>
                 <div className={Style.home_box_right}>
-                    <Image src={images.creatorbackground6} alt="Home" width={600} height={600}
+                    <Image src={images.hakaton} alt="Home" width={600} height={600}
                     className={Style.home_box_right_img}/>
                 </div>
             </div>

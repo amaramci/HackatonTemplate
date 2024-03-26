@@ -9,7 +9,7 @@ const About = () => {
         <div className={Style.about}>
             <div className={Style.about_box}>
                 <div className={Style.about_box_left}>
-                    <Image src={images.nftimage1} width={600} height={600} className={Style.about_box_left_img}/>
+                    <Image src={images.prog1} width={600} height={600} className={Style.about_box_left_img}/>
                 </div>
                 <div>
                     <div className={Style.about_box_right}>
