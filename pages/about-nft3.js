@@ -15,8 +15,8 @@ const About = () => {
                     <div className={Style.about_box_right}>
                         <h3>ID: 4</h3>
                         <h3>Predmet:Elektronsko poslovanje</h3>
-                        <h3>Profesor: Ime Prezime</h3>
-                        <h3>Veštine: Frontend</h3>
+                        <h3>Profesor: Marijana Despotović-Zrakić</h3>
+                        <h3>Veštine: Frontend, WordPress, JavaScript</h3>
                         <h3>Grupa predmeta: Programski</h3>
                     </div>
                 </div>

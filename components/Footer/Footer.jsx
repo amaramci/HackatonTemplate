@@ -68,7 +68,7 @@ const Footer = () =>{
                     <h3>Pretplatite se</h3>
 
                     <div className={Style.footer_subscribe_box}>
-                        <input type="email" placeholder="Unesite Vas email *" />
+                        <input type="email" placeholder="Unesite Vaš email *" />
                         <RiSendPlaneFill className={Style.footer_subscribe_box_send} />
                     </div>
                     <div className={Style.footer_subscribe_box_info}>

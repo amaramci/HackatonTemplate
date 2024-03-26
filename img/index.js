@@ -15,7 +15,11 @@ import hakaton from "./Hakaton.jpg";
 import kurs_bootcamp from "./Priznanje_(slušanje_kursa_na_BC_Bootcampu).jpg";
 import student_it from "./Student_-_Informacioni_Sistemi_I_Tehnologije.jpg";
 import student_mndz from "./Student_-_Menadžment_I_Organizacija.jpg";
+import user3 from "./user-3.png";
+import user4 from "./user-4.png";
+import user8 from "./user-8.png";
+import user9 from "./user-9.png";
 
 
-export default {epos, baze, ekonomija, mata1, mata2, mndz, principi,
+export default {epos, baze, ekonomija, mata1, mata2, mndz, principi, user3, user4, user8, user9,
 prog1, psiho, stat, vestacka, zavrsni, logo, hakaton, kurs_bootcamp, student_it, student_mndz};

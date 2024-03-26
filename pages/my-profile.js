@@ -10,7 +10,7 @@ const profil = () =>{
         <div className={Style.profil}>
             <div className={Style.profil_box}>
                 <div className={Style.profil_box_info}>
-                    <h2>Ime Prezime</h2>
+                    <h2>Amar Mujezinović</h2>
                     <h4>0x135131876134506168145176486167849</h4>
                 </div>
                 <div className={Style.profil_box_nft}>

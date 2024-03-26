@@ -9,8 +9,8 @@ const Profil = () =>{
         <div className={Style.profile}>
             <div className={Style.profile_account}>
                 <div className={Style.profile_account_info}>
-                    <p>Ime Prezime</p>
-                    <small>Adresa Walleta</small>
+                    <p>Amar Mujezinović</p>
+                    <small>0x135131876134506168145176486167849</small>
                 </div>
             </div>
             <div className={Style.profile_menu}> 
