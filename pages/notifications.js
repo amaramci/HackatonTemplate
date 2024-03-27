@@ -14,8 +14,8 @@ const obavestenja = () =>{
                     className={Style.obavestenja_box_img_img}/>
                 </div>
                 <div className={Style.obavestenja_box_info}>
-                    <h2>Ime Prezime</h2>
-                    <h3>Tekst neke poruke, obavestenja</h3>
+                    <h2>Samsung</h2>
+                    <h3>Kompanija Samsung je zainteresovana da obavite razgovor za praksu.</h3>
                     <small>Pre 3 minuta...</small>
                 </div>
                 <span className={Style.obavestenja_box_new}></span>
