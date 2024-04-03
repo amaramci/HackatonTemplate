@@ -4,6 +4,8 @@
     padding-block: 1.5rem;
     position: relative;
     z-index: 111111111;
+    background:linear-gradient(rgba(100,15,20,0.5),transparent);
+    background-color: #470382;
 }
 
 .navbar_container{ 

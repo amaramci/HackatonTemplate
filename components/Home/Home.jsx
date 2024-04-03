@@ -10,6 +10,7 @@ const Home = () =>{
     const [connect, setConnect] = useState(false);
 
     return(
+        <div className={Style.h}>
         <div className={Style.home}>
             <div className={Style.home_box}>
                 <div className={Style.home_box_left}>
@@ -22,6 +23,7 @@ const Home = () =>{
                     className={Style.home_box_right_img}/>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

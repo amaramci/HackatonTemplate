@@ -1,7 +1,11 @@
+.h{
+    background:linear-gradient(rgba(100,15,20,0.5),transparent);
+    background-color: #470382;
+}
 
 .home{
     width: 80%;
-    margin: 3rem auto;
+    margin: 0rem auto;
 }
 
 .home_box{

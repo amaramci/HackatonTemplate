@@ -7,6 +7,7 @@ import images from "../img";
 
 const kolekcije = () =>{
     return (
+        <div className={Style.k}>
         <div className={Style.kolekcije}>
             <div className={Style.kolekcije_box}>
                 <div className={Style.kolekcije_box_box}>
@@ -170,6 +171,7 @@ const kolekcije = () =>{
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

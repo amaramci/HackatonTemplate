@@ -6,7 +6,8 @@ import images from "../img";
 
 const kompanije = () =>{
 
-    return (
+    return ( 
+        <div className={Style.k}>
         <div className={Style.kompanije}>
             <div className={Style.kompanije_box}>
                 <div className={Style.kompanije_box_image}>
@@ -40,6 +41,7 @@ const kompanije = () =>{
                     <h2>FON</h2>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
